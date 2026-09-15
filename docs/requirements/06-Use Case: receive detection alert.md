@@ -12,7 +12,7 @@ The MLDS control program is operating and able to receive alert messages.
 **Trigger:** 
 The MLDS receives an alert message from the animal detection system.
 
-### Main Flow
+### Main
 
 1. The animal detection system sends an alert message to the MLDS.
 2. The MLDS receives the alert message.
