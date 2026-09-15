@@ -9,7 +9,7 @@ Detection information is available in the MLDS.
 **Trigger:** 
 The park ranger requests a detection report.
 
-### Main Flow
+### Main
 
 1. The park ranger selects a report type.
 2. The park ranger provides the information required for the selected report.
