@@ -9,7 +9,7 @@ A mountain lion detection exists in the MLDS.
 **Trigger:** 
 The park ranger chooses to classify a detection.
 
-### Main Flow
+### Main
 
 1. The park ranger selects a mountain lion detection.
 2. The MLDS presents the detection information.
