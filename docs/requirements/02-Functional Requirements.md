@@ -40,4 +40,4 @@ The MLDS shall provide a graphical report showing detections
 within the park and within two miles of the park.
 
 ### FR-12 - Report by ranger
-The MLDS shall allow a report by each ranger.
+The MLDS shall allow a report of detections classified by each ranger.
