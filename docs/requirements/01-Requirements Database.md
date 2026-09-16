@@ -1,7 +1,15 @@
 # MLDS Requirements Database
 
-This document contains the requirements database for the Mountain Lion Detection System (MLDS). Requirements are derived from the customer-provided MLDS requirements and will be updated throughout development.
+## Overview
 
-| ID | Functional Area | Source | Requirement Text | Priority | Allocation | Increment | Top-Level Component | Detailed Component | Comments |
-| -- | --------------- | ------ | ---------------- | -------- | ---------- | --------- | ------------------- | ------------------ | -------- |
+This document contains the requirements database for the Mountain Lion Detection System. The database is maintained by the development team and provides a central repository for tracking and managing system requirements throughout development.
+The requirements will be reviewed, maintained, and updated as requirements are clarified or changed.
 
+##
+
+| ID | Functional Area | Source | Requirement Text | Priority | Allocation | Release / Increment | Top-Level Component | Detailed Component | Comments |
+| -- | --------------- | ------ | ---------------- | -------- | ---------- | ------------------- | ------------------- | ------------------ | -------- |
+| FR-xx | Alert        | Customer Req. xx | The MLDS shall receive alert messages from the animal detection system.  | TBD      | Application Software | TBD       | TBD                 | TBD                |          |
+| FR-xx | Alarm        | Customer Req. xx | The MLDS shall sound an alarm when an alert message is received | TBD      | Application Software | TBD       | TBD                 | TBD                |          
+| -- | --------------- | ------ | ---------------- | -------- | ---------- | ------------------- | ------------------- | ------------------ | -------- |
+| -- | --------------- | ------ | ---------------- | -------- | ---------- | ------------------- | ------------------- | ------------------ | -------- |
