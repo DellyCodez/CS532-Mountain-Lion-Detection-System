@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	lion	mountain_lion	0.2901	/private/var/folders/_v/kgcm3_g5465b9lb91_66qwvw0000gn/T/gradio/cd498e79ca2f13d638e827bd88d86b79e0cccd3893320bd1afa1fa0775250fa5/audio.wav	0.0
+2	Spectrogram 1	1	3.0	6.0	0	15000	lion	mountain_lion	0.1169	/private/var/folders/_v/kgcm3_g5465b9lb91_66qwvw0000gn/T/gradio/cd498e79ca2f13d638e827bd88d86b79e0cccd3893320bd1afa1fa0775250fa5/audio.wav	3.0
+3	Spectrogram 1	1	6.0	9.0	0	15000	lion	mountain_lion	0.2926	/private/var/folders/_v/kgcm3_g5465b9lb91_66qwvw0000gn/T/gradio/cd498e79ca2f13d638e827bd88d86b79e0cccd3893320bd1afa1fa0775250fa5/audio.wav	6.0
+4	Spectrogram 1	1	9.0	12.0	0	15000	lion	mountain_lion	0.2623	/private/var/folders/_v/kgcm3_g5465b9lb91_66qwvw0000gn/T/gradio/cd498e79ca2f13d638e827bd88d86b79e0cccd3893320bd1afa1fa0775250fa5/audio.wav	9.0
+5	Spectrogram 1	1	12.0	15.0	0	15000	lion	mountain_lion	0.4669	/private/var/folders/_v/kgcm3_g5465b9lb91_66qwvw0000gn/T/gradio/cd498e79ca2f13d638e827bd88d86b79e0cccd3893320bd1afa1fa0775250fa5/audio.wav	12.0
+6	Spectrogram 1	1	15.0	18.0	0	15000	lion	mountain_lion	0.3920	/private/var/folders/_v/kgcm3_g5465b9lb91_66qwvw0000gn/T/gradio/cd498e79ca2f13d638e827bd88d86b79e0cccd3893320bd1afa1fa0775250fa5/audio.wav	15.0
+7	Spectrogram 1	1	18.0	21.0	0	15000	lion	mountain_lion	0.3168	/private/var/folders/_v/kgcm3_g5465b9lb91_66qwvw0000gn/T/gradio/cd498e79ca2f13d638e827bd88d86b79e0cccd3893320bd1afa1fa0775250fa5/audio.wav	18.0
+8	Spectrogram 1	1	21.0	24.0	0	15000	lion	mountain_lion	0.3952	/private/var/folders/_v/kgcm3_g5465b9lb91_66qwvw0000gn/T/gradio/cd498e79ca2f13d638e827bd88d86b79e0cccd3893320bd1afa1fa0775250fa5/audio.wav	21.0
+9	Spectrogram 1	1	24.0	27.0	0	15000	lion	mountain_lion	0.1465	/private/var/folders/_v/kgcm3_g5465b9lb91_66qwvw0000gn/T/gradio/cd498e79ca2f13d638e827bd88d86b79e0cccd3893320bd1afa1fa0775250fa5/audio.wav	24.0
+10	Spectrogram 1	1	27.0	29.1	0	15000	lion	mountain_lion	0.4272	/private/var/folders/_v/kgcm3_g5465b9lb91_66qwvw0000gn/T/gradio/cd498e79ca2f13d638e827bd88d86b79e0cccd3893320bd1afa1fa0775250fa5/audio.wav	27.0

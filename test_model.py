@@ -37,7 +37,6 @@ try:
             reader = csv.DictReader(f, delimiter="\t")
 
             for row in reader:
-                # Check confidence score
                 confidence = float(row.get("Confidence", 0))
                 species = row.get("Common Name", "") or row.get("Scientific Name", "")
 
@@ -48,7 +47,6 @@ try:
                     end_time = row.get("End (s)", "N/A")
                     high_confidence_matches.append((start_time, end_time, confidence, species))
 
-        # Display verdict
         print("--- VERDICT ---")
         if mountain_lion_detected:
             print(" HIGH POSSIBILITY OF MOUNTAIN LION DETECTED! (Confidence >= 0.40)\n")
