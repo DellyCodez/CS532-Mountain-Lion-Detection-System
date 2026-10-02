@@ -21,6 +21,7 @@ def analyze_phone_audio(audio_path):
             pass
 
     print(f"Analyzing audio file via birdnet-analyze command tool...")
+    print(f"Detecting signatures...")
 
     try:
         subprocess.run([
