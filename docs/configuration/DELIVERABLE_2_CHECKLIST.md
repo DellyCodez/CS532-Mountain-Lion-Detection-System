@@ -14,6 +14,11 @@
 | CM records, tracked changes and repository artifact index | Alex | `docs/configuration/` | Draft CM update in review |
 | Team time tracking and Peer Review #2 | Each member; PM coordinates | Notebook / Canvas, as directed | Members to confirm |
 
+## GitHub coordination
+- [D2 document handoff issue #6](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/issues/6): owners post artifact links, PRs and completion status.
+- [Branch protection issue #7](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/issues/7): CM/repository owner must verify active rules in settings.
+- [CM documentation PR #5](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/5): obtain independent review before merging.
+
 ## CM sign-off steps
 - [ ] Ask all document owners for final location, link/commit SHA, reviewer and completion status.
 - [ ] Confirm diagrams/test-plan/data-model are actual artifacts, not README placeholders.
