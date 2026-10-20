@@ -1,17 +1,33 @@
-## What changed?
+## Summary
+Briefly explain what you changed and why.
 
-Briefly describe the changes made in this pull request.
+## Affected project areas
+- [ ] Requirements / traceability
+- [ ] Architecture / interface design
+- [ ] Application / integration code
+- [ ] Database / data model
+- [ ] Test plan / test evidence
+- [ ] Configuration / project documents
 
-## What part of the project does this affect?
+**Related requirement IDs or issue:**  
+**Target deliverable (if applicable):**  
+**Files/artifacts changed:**  
 
-- [ ] Requirements
-- [ ] Design
-- [ ] Source code
-- [ ] Database
-- [ ] Testing
-- [ ] Documentation
+## Checks before review
+- [ ] I reviewed my changes and checked that files are in the correct folder.
+- [ ] I confirmed I am targeting the correct branch and did not include secrets or local-only files.
+- [ ] I explained any effect on requirements, interfaces, tests, or the baseline.
+- [ ] I included test results/evidence or explained why testing is not applicable or not complete.
+- [ ] I updated related documentation where needed.
+- [ ] I identified any unfinished work or known issue.
 
-## Ready to merge?
+**How was this checked / tested?**  
 
-- [ ] I reviewed my changes
-- [ ] The changes are ready for the team to review
+**Known issues / follow-up:**  
+
+## Review and merge
+**Independent reviewer (not PR author):**  
+**CM verification (if applicable):**  
+- [ ] Independent review completed
+- [ ] Outstanding comments resolved
+- [ ] Ready to merge after approval
