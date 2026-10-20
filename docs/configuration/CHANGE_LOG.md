@@ -11,6 +11,11 @@ This table lists verifiable GitHub project history; a merge does not automatical
 | 2026-10-02 | [PR #4](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/4) | VictorPartain | `testing` → `main`; audio detection prototype | Merged; no submitted GitHub approval review found |
 | 2026-10-13 | [Commit d4daa89d](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/commit/d4daa89dcdbe2808818e92e1edd1fc462651b90f) | VictorPartain | Direct `main` commit, certificate ignore rule | Tracked commit; PR process not used |
 
+## Change pending review
+| Date | Record | Contributor | Scope | Outcome |
+| --- | --- | --- | --- | --- |
+| 2026-10-20 | [PR #5](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/5) | DellyCodez (CM lead) | CM plans/registers, PR template and documentation indexes | **Open; awaiting independent review; not merged or baselined** |
+
 ## New change entry template
 | Date | Issue / PR | Owner | Reason / summary | Affected items | Tests / review evidence | Resulting commit | Baseline impact |
 | --- | --- | --- | --- | --- | --- | --- | --- |
