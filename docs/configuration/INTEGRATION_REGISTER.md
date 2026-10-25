@@ -1,5 +1,5 @@
 # Branch and Integration Register — MLDS
-**Checked:** 2026-10-20; **owner:** Configuration Management.
+**Checked:** 2026-10-25; **owner:** Configuration Management.
 
 ## Verified branch heads
 | Branch | Head commit | Protection (at audit) | Current purpose |
@@ -8,8 +8,9 @@
 | `development` | `3535c03618e06e88179c28def6f7ab63402704ab` | No | Initial sensor networking/backend scaffolding |
 | `backend` | `647ddde74719156ea3ee39bacf0e035fd8175a6f` | No | Existing backend experiment |
 | `testing` | `6ae376b5585ae856b7bf9e72a6c511e1729aa71a` | No | Existing detection experiment |
+| `cm/deliverable-2-controls` | [Live PR #5](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/5) (head changes during review) | No | Proposed D2 configuration documentation |
 
-These SHAs are dated references, **not live current heads**; refresh them before each milestone.
+These SHAs are dated references, **not live current heads**; refresh them before each milestone. On October 25, five branches were found and none had an active protection flag; the ruleset list was empty. CM documentation is on a separate, still-open PR.
 
 ## Open integration work
 - [ ] Austin / Victor / Cesko agree on sensor-to-detector payload, filenames, supported runtime, and error handling.

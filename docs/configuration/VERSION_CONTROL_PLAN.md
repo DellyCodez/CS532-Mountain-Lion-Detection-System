@@ -9,6 +9,7 @@
 | `main` | Reviewed integration/submission snapshot; not proof every feature is done | Merge reviewed PRs; record milestone SHA |
 | `development` | Combine and test changes before promotion | PR from feature branch; review before merge |
 | `backend`, `testing` | Existing legacy/work branches; coordinate their integration, do not overwrite | Use reviewed PRs; retire only when owners agree |
+| `cm/deliverable-2-controls` | Temporary CM documentation changes for Deliverable 2 | Existing [PR #5](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/5) to `main`, after independent review |
 | `feature/*`, `fix/*`, `docs/*`, `cm/*` | Short-lived work | PR to `development` or, for CM-only submissions, `main` as agreed |
 
 ### Required change procedure
@@ -21,7 +22,7 @@
 7. For a milestone, record the approved `main` commit in the baseline register. Only then create a tag/release when authorized.
 
 ### Branch protection — action required
-As of 2026-10-20, GitHub reports `main`, `development`, `backend`, and `testing` are unprotected, with no rulesets. Repository owner should configure **Settings > Rules > Rulesets** (or Branches, where applicable):
+As of 2026-10-25, GitHub reports `main`, `development`, `backend`, and `testing` are unprotected, with no rulesets. Repository owner should configure **Settings > Rules > Rulesets** (or Branches, where applicable):
 - Protect `main`: require pull requests and at least one approval; prevent force pushes and branch deletion.
 - Protect `development`: require PR-based changes; use independent review where feasible.
 - If team size/reviewer availability limits enforcement, document any exception rather than silently bypassing review.
@@ -30,8 +31,11 @@ As of 2026-10-20, GitHub reports `main`, `development`, `backend`, and `testing`
 
 **This file documents the intended controls; it does not itself change GitHub settings.**
 
-### Current integration concern (snapshot 2026-10-20)
+### Current integration concern (snapshot 2026-10-25)
 `main` and `development` have diverged. GitHub comparison: `development` is two commits ahead and seven behind `main`; the `development` side includes sensor networking files not present in `main`. Plan the merge with Austin/Victor/Cesko and Caleb rather than force-pushing either branch. See [INTEGRATION_REGISTER.md](INTEGRATION_REGISTER.md).
+
+### Deliverable naming
+A milestone is represented by an approved set of versioned files/commit, **not** by a new permanent development branch. For Deliverable 2, update the existing CM plan and use the existing `cm/deliverable-2-controls` PR. Do not create a `development-2` branch or force-merge divergent feature work.
 
 ### Naming and document versioning
 - Use stable paths, for example `docs/design/architecture.md` and `docs/testing/test-plan.md`. Record the approved commit rather than appending `final-final-v2` to filenames.

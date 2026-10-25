@@ -1,6 +1,6 @@
 # Build, Runtime, and Release Record — MLDS
 
-**Status as of 2026-10-20:** an end-to-end reproducible build has **not** been verified. This document lists required information; unchecked items are not completed evidence.
+**Status as of 2026-10-25:** an end-to-end reproducible build has **not** been verified. This document lists required information; unchecked items are not completed evidence.
 
 ## Known repository inputs
 - `main.py`, `training.py`, `test_model.py`: experimental audio detection files on `main`.

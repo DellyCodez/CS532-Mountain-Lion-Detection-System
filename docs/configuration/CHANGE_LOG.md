@@ -1,5 +1,5 @@
 # Configuration Change Log — MLDS
-**Compiled by:** Alexander Hills. **Audit date:** 2026-10-20.
+**Compiled by:** Alexander Hills. **Audit refreshed:** 2026-10-25.
 
 This table lists verifiable GitHub project history; a merge does not automatically mean successful validation or formal baseline approval.
 
@@ -14,7 +14,7 @@ This table lists verifiable GitHub project history; a merge does not automatical
 ## Change pending review
 | Date | Record | Contributor | Scope | Outcome |
 | --- | --- | --- | --- | --- |
-| 2026-10-20 | [PR #5](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/5) | DellyCodez (CM lead) | CM plans/registers, PR template and documentation indexes | **Open; awaiting independent review; not merged or baselined** |
+| 2026-10-20 | [PR #5](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/5) | DellyCodez (CM lead) | CM plans/registers, PR template and documentation indexes | **Open as of 2026-10-25; independent review requested, not yet approved or merged** |
 
 ## New change entry template
 | Date | Issue / PR | Owner | Reason / summary | Affected items | Tests / review evidence | Resulting commit | Baseline impact |

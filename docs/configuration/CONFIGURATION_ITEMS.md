@@ -1,5 +1,5 @@
 # Configuration Item Register — MLDS
-**Initial inventory:** 2026-10-20 (GitHub state at review).  
+**Inventory reviewed:** 2026-10-25 (GitHub state at review).  
 **CM owner:** Alexander Hills. **Status:** Working register; not a formally approved baseline.
 
 | Item ID | Item | Current repository location | Responsible role | Status |
@@ -13,7 +13,7 @@
 | CI-07 | Audio model and training artifact | `main:mountain_lion_model_*.csv`, `mountain_lion_model_Labels.txt` | Audio owner | Metadata present; model binary absent from tracked main |
 | CI-08 | Test plan, cases, results | `docs/testing/` | Test lead | README only on main |
 | CI-09 | SDF / review and change evidence | `docs/sdf/` | PM + CM and respective owners | README only on main |
-| CI-10 | CM procedures and change records | `docs/configuration/`, `.github/pull_request_template.md` | CM lead | Initial controls and records; proposed updates under review |
+| CI-10 | CM procedures and change records | `docs/configuration/`, `.github/pull_request_template.md` | CM lead | Initial controls on main; expanded CM records in PR #5 pending review |
 | CI-11 | Project plan, timesheets, Word notebook, presentation | PM-managed; cross-reference from `docs/sdf/` | Project manager | Not verified in repo; verify with PM |
 | CI-12 | Runtime environment and dependencies | `docs/configuration/BUILD_RECORD.md` (planned record) | Development lead | Not reproducibly documented yet |
 

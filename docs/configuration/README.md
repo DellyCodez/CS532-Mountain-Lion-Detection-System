@@ -14,5 +14,6 @@ This folder contains the configuration records for the CS 532 Mountain Lion Dete
 | [INTEGRATION_REGISTER.md](INTEGRATION_REGISTER.md) | Cross-branch status and integration action items |
 | [BUILD_RECORD.md](BUILD_RECORD.md) | Reproducible build inputs and environment record |
 | [DELIVERABLE_2_CHECKLIST.md](DELIVERABLE_2_CHECKLIST.md) | October 29 document handoff and CM sign-off checklist |
+| [REPOSITORY_AUDIT_2026-10-25.md](REPOSITORY_AUDIT_2026-10-25.md) | Verified October 25 GitHub audit, gaps and owner actions |
 
 **Note:** A written policy is not the same as an enforced GitHub rule. Actual branch protection needs to be configured and checked in repository settings. Team review/approval is required before declaring a configuration baseline.
