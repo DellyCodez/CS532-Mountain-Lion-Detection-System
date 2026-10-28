@@ -1,6 +1,6 @@
 import subprocess
 
-dataset_dir = "/Users/vpartain/Desktop/WIP/my_dataset"
+dataset_dir = "/my_dataset"
 output_model_dir = "/Users/vpartain/Desktop/Testing/mountain_lion_model"
 
 print("Starting BirdNET Custom Classifier Training...")

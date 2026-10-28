@@ -30,10 +30,10 @@ class ParkConfig:
     STATION_LON = -117.1611
 
     # Location of the custom BirdNET model file
-    CUSTOM_MODEL_PATH = "/Users/vpartain/Desktop/WIP/mountain_lion_model.tflite"
+    CUSTOM_MODEL_PATH = "/models/birdnet/mountain_lion_model.tflite"
 
     # Folder where BirdNET temporarily saves its results
-    OUTPUT_TEMP_DIR = "/Users/vpartain/Desktop/WIP/results"
+    OUTPUT_TEMP_DIR = "/results"
 
     # Minimum confidence required before a detection becomes an alert
     #

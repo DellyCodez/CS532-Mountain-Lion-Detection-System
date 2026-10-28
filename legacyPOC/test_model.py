@@ -4,8 +4,8 @@ import glob
 import csv
 
 audio_to_test = "/Users/vpartain/Desktop/WIP/my_dataset/mountain_lion/*.wav"
-model_file = "/Users/vpartain/Desktop/WIP/mountain_lion_model.tflite"
-output_dir = "/Users/vpartain/Desktop/WIP/results"
+model_file = "/models/birdnet/mountain_lion_model.tflite"
+output_dir = "/results"
 
 os.makedirs(output_dir, exist_ok=True)
 

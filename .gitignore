@@ -1,28 +1,63 @@
-# Virtual Environments
+# Virtual environments
 venv/
 .venv/
 env/
 ENV/
+data/raw/
+data/processed/
+runtime/
 
-# Python Cache & Compiled Files
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials/
+secrets/
+firebase-service-account*.json
+serviceAccountKey.json
+*-firebase-adminsdk-*.json
+
+# Python cache and compiled files
 __pycache__/
 *.py[cod]
 *$py.class
-*.dylib
 *.so
+*.dylib
 *.dll
 
-# Datasets & Large Media
+# Datasets and raw media
 my_dataset/
 *.wav
 *.mp4
 *.avi
 *.jpg
-*.png
-*.zip
 
-# Machine Learning Models & Weights
+# Machine-learning models
 *.pt
 *.onnx
 *.h5
 *.tflite
+
+# Generated application output
+results/
+output/
+tmp/
+logs/
+*.log
+birdnet_output/
+
+# Firebase local emulator files
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
