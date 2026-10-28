@@ -1,37 +1,47 @@
 # NotFlock - Mountain Lion Detection System
 
-**CS 532 Software Engineering | San Diego State University**
+NotFlock is our team project for helping California State Park rangers monitor possible mountain lion activity through sound detection. The goal is to use audio analysis to identify possible mountain lion sounds, notify rangers, and give them a way to review and keep track of detections.
 
-NotFlock is a team project focused on helping California State Park rangers monitor possible mountain lion activity using sound detection. The system is designed to analyze audio, send alerts when a possible mountain lion sound is detected, and give rangers a way to review and track those detections.
+## How the System Works
 
-## Main Features
+1. A sensor or uploaded recording provides an audio clip.
+2. The detection program analyzes the sound for a possible mountain lion match.
+3. A possible detection produces an alert with information such as the sound type, strength, and location.
+4. A ranger reviews the alert and classifies it as **Definite**, **Suspected**, or **False**.
+5. Detection records can be used to view activity history and generate reports.
 
-- **Audio detection:** Analyze recordings for possible mountain lion sounds.
-- **Detection alerts:** Provide information such as the sound type, strength, and location.
-- **Ranger classification:** Allow rangers to mark detections as Definite, Suspected, or False.
-- **Detection history:** Keep records of alerts and ranger classifications.
-- **Reports:** View detection activity by date, sensor location, or ranger.
-
-## How It Works
-
-1. An audio recording is captured by a sensor or submitted for analysis.
-2. The detection system analyzes the sound for possible mountain lion activity.
-3. A possible detection is sent to the ranger system as an alert.
-4. Rangers review and classify the alert.
-5. Detection records can be used to generate reports.
+This is the system workflow described in our requirements. The code is organized into different components as the team develops and connects them.
 
 ## Technologies
 
-The project uses **Python** for development, with **BirdNET** for audio analysis and **Gradio** for the audio interface.
+We use **Python** for development, **BirdNET** for audio analysis, and **Gradio** for the Python-based interface.
 
-## Repository Structure
+## Finding Files in This Repository
 
-| Location | Contents |
+| Location | What to look for |
 | --- | --- |
-| [`main.py`](main.py) | Python audio detection application |
-| [`docs/requirements/`](docs/requirements/) | Functional and non-functional requirements, use cases, and traceability |
-| [`docs/design/`](docs/design/) | System architecture and interface design documentation |
-| [`docs/testing/`](docs/testing/) | Test documentation |
+| [`main.py`](main.py) | Audio detection prototype |
+| [Backend code (`development` branch)](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/tree/development/backend) | Sensor and backend component files |
+| [`RangerModel.py` (`testing` branch)](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/blob/testing/RangerModel.py) | Ranger interface and alert-handling code |
+| [`docs/requirements/`](docs/requirements/) | Functional and non-functional requirements, user stories, use cases, and traceability |
+| [`docs/design/`](docs/design/) | System and interface design documentation |
+| [`docs/testing/`](docs/testing/) | Testing documentation |
 | [`docs/configuration/`](docs/configuration/) | Configuration Management and Version Control Plans |
 | [`docs/sdf/`](docs/sdf/) | Software Development Folder documentation |
 
+The **branch selector** on GitHub lets you switch between `main`, `development`, `backend`, and `testing` to view work in each area. Files in a working branch may be different from the reviewed files in `main`.
+
+## How Our Team Uses GitHub
+
+We use GitHub to keep our code and documentation organized and to track changes made by different team members.
+
+| Branch | Purpose |
+| --- | --- |
+| `main` | Reviewed project files and documentation |
+| `development` | Combining and checking team changes before adding them to `main` |
+| `backend` | Work on backend components |
+| `testing` | Audio detection and ranger interface work |
+
+When a team member makes changes, they commit their work to a branch and open a **pull request**. Another teammate reviews the changed files, leaves comments if something needs fixing, and approves the PR when it is ready. The changes are then merged into the agreed branch. This helps us keep track of what changed and avoid accidentally replacing someone else's work.
+
+The Project Manager coordinates the team's assignments and deliverables. The Configuration Manager helps keep the repository, branches, and version history organized. More detail is in our [Version Control Plan](docs/configuration/VERSION_CONTROL_PLAN.md).
