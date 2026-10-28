@@ -7,8 +7,8 @@ The idea is to analyze sounds, flag possible detections, and give rangers a way 
 ## What we have so far
 
 - **Audio detection:** [`main.py`](main.py) contains an early Gradio demo that records audio through a microphone and uses BirdNET to check for possible mountain lion sounds.
-- **Backend:** Additional backend work is being developed on the [`development` branch](../../tree/development).
-- **Ranger interface:** Work on the alert and ranger interface is on the [`testing` branch](../../tree/testing) and is being reviewed in [pull request #9](../../pull/9).
+- **Backend:** Additional backend work is being developed on the [`development` branch](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/tree/development).
+- **Ranger interface:** Work on the alert and ranger interface is on the [`testing` branch](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/tree/testing) and is being reviewed in [pull request #9](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/9).
 - **Documentation:** We are keeping our requirements and project plans in the `docs` folder while the team works on the remaining parts.
 
 The audio demo currently uses a locally configured model and file paths, so it is not a complete setup that will run on every computer without changes. We are still working on integration, testing, and getting the project files ready for review.
