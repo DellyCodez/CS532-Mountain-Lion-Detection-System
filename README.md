@@ -1,7 +1,5 @@
 # NotFlock - Mountain Lion Detection System
 
-**CS 532 Software Engineering | San Diego State University**
-
 NotFlock is our team project for helping California State Park rangers monitor possible mountain lion activity through sound detection. The goal is to use audio analysis to identify possible mountain lion sounds, notify rangers, and give them a way to review and keep track of detections.
 
 ## How the System Works
