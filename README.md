@@ -1,24 +1,34 @@
-# CS 532 - Mountain Lion Detection System
+# CS 532 - Mountain Lion Detection System (NotFlock)
 
-This repository is for our CS 532 Software Engineering team project.
+This is our team project for CS 532 Software Engineering at SDSU. We are working on a system that uses audio recordings to help California State Park rangers identify possible mountain lion activity.
 
-The Mountain Lion Detection System is being designed to help California State Park rangers monitor possible mountain lion activity. The system will receive detection alerts, allow rangers to classify alerts, and provide reports based on the recorded activity.
+The idea is to analyze sounds, flag possible detections, and give rangers a way to review alerts, classify them, and look at activity reports. **The project is still in development**, so not every feature is working together yet.
 
-## Project Documents
+## What we have so far
 
-Project documentation is organized under the `docs` folder:
+- **Audio detection:** [`main.py`](main.py) contains an early Gradio demo that records audio through a microphone and uses BirdNET to check for possible mountain lion sounds.
+- **Backend:** Additional backend work is being developed on the [`development` branch](../../tree/development).
+- **Ranger interface:** Work on the alert and ranger interface is on the [`testing` branch](../../tree/testing) and is being reviewed in [pull request #9](../../pull/9).
+- **Documentation:** We are keeping our requirements and project plans in the `docs` folder while the team works on the remaining parts.
 
-- `requirements` - project requirements
-- `configuration` - configuration and version control plans
-- `design` - system and interface design documents
-- `testing` - test plans and test results
-- `sdf` - Software Development Folder information
+The audio demo currently uses a locally configured model and file paths, so it is not a complete setup that will run on every computer without changes. We are still working on integration, testing, and getting the project files ready for review.
 
-## Version Control
+## Where to find the documents
 
-- `main` is the current approved version of the project.
-- `development` is used for team development and integration.
-- Separate task branches should be used for individual features, fixes, or documentation changes.
-- Pull requests should be used before changes are added to the shared project branches.
+| Folder | What's in it |
+| --- | --- |
+| [`docs/requirements`](docs/requirements/) | Requirements, user stories, use cases, acceptance criteria, and traceability |
+| [`docs/configuration`](docs/configuration/) | Configuration Management Plan, Version Control Plan, and repository checks |
+| [`docs/design`](docs/design/) | Design and architecture documents as they are added |
+| [`docs/testing`](docs/testing/) | Test plans and results as they are added |
+| [`docs/sdf`](docs/sdf/) | Software Development Folder materials |
 
-More information is available in `docs/configuration/VERSION_CONTROL_PLAN.md`.
+Some folders may only have a README until the team's files are added or reviewed.
+
+## How we use GitHub
+
+We use `main` for reviewed project work, `development` to bring team changes together, and other branches for individual tasks. Team members open pull requests so changes can be reviewed before they are merged.
+
+Our Project Manager coordinates the team schedule and final deliverables. GitHub is where we keep track of the code, documentation, and changes.
+
+*Project status updated October 28, 2026.*
