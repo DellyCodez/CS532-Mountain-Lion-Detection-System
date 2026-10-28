@@ -35,6 +35,3 @@ The project uses **Python** for development, with **BirdNET** for audio analysis
 | [`docs/configuration/`](docs/configuration/) | Configuration Management and Version Control Plans |
 | [`docs/sdf/`](docs/sdf/) | Software Development Folder documentation |
 
----
-
-*CS 532 Software Engineering team project — SDSU*
