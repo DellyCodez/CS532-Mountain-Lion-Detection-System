@@ -1,34 +1,40 @@
-# CS 532 - Mountain Lion Detection System (NotFlock)
+# NotFlock - Mountain Lion Detection System
 
-This is our team project for CS 532 Software Engineering at SDSU. We are working on a system that uses audio recordings to help California State Park rangers identify possible mountain lion activity.
+**CS 532 Software Engineering | San Diego State University**
 
-The idea is to analyze sounds, flag possible detections, and give rangers a way to review alerts, classify them, and look at activity reports. **The project is still in development**, so not every feature is working together yet.
+NotFlock is a team project focused on helping California State Park rangers monitor possible mountain lion activity using sound detection. The system is designed to analyze audio, send alerts when a possible mountain lion sound is detected, and give rangers a way to review and track those detections.
 
-## What we have so far
+## Main Features
 
-- **Audio detection:** [`main.py`](main.py) contains an early Gradio demo that records audio through a microphone and uses BirdNET to check for possible mountain lion sounds.
-- **Backend:** Additional backend work is being developed on the [`development` branch](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/tree/development).
-- **Ranger interface:** Work on the alert and ranger interface is on the [`testing` branch](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/tree/testing) and is being reviewed in [pull request #9](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/9).
-- **Documentation:** We are keeping our requirements and project plans in the `docs` folder while the team works on the remaining parts.
+- **Audio detection:** Analyze recordings for possible mountain lion sounds.
+- **Detection alerts:** Provide information such as the sound type, strength, and location.
+- **Ranger classification:** Allow rangers to mark detections as Definite, Suspected, or False.
+- **Detection history:** Keep records of alerts and ranger classifications.
+- **Reports:** View detection activity by date, sensor location, or ranger.
 
-The audio demo currently uses a locally configured model and file paths, so it is not a complete setup that will run on every computer without changes. We are still working on integration, testing, and getting the project files ready for review.
+## How It Works
 
-## Where to find the documents
+1. An audio recording is captured by a sensor or submitted for analysis.
+2. The detection system analyzes the sound for possible mountain lion activity.
+3. A possible detection is sent to the ranger system as an alert.
+4. Rangers review and classify the alert.
+5. Detection records can be used to generate reports.
 
-| Folder | What's in it |
+## Technologies
+
+The project uses **Python** for development, with **BirdNET** for audio analysis and **Gradio** for the audio interface.
+
+## Repository Structure
+
+| Location | Contents |
 | --- | --- |
-| [`docs/requirements`](docs/requirements/) | Requirements, user stories, use cases, acceptance criteria, and traceability |
-| [`docs/configuration`](docs/configuration/) | Configuration Management Plan, Version Control Plan, and repository checks |
-| [`docs/design`](docs/design/) | Design and architecture documents as they are added |
-| [`docs/testing`](docs/testing/) | Test plans and results as they are added |
-| [`docs/sdf`](docs/sdf/) | Software Development Folder materials |
+| [`main.py`](main.py) | Python audio detection application |
+| [`docs/requirements/`](docs/requirements/) | Functional and non-functional requirements, use cases, and traceability |
+| [`docs/design/`](docs/design/) | System architecture and interface design documentation |
+| [`docs/testing/`](docs/testing/) | Test documentation |
+| [`docs/configuration/`](docs/configuration/) | Configuration Management and Version Control Plans |
+| [`docs/sdf/`](docs/sdf/) | Software Development Folder documentation |
 
-Some folders may only have a README until the team's files are added or reviewed.
+---
 
-## How we use GitHub
-
-We use `main` for reviewed project work, `development` to bring team changes together, and other branches for individual tasks. Team members open pull requests so changes can be reviewed before they are merged.
-
-Our Project Manager coordinates the team schedule and final deliverables. GitHub is where we keep track of the code, documentation, and changes.
-
-*Project status updated October 28, 2026.*
+*CS 532 Software Engineering team project — SDSU*
