@@ -1,73 +1,50 @@
 # Configuration Management Plan
 
-## Project
-Mountain Lion Detection System
+## Project and ownership
+**Project:** CS 532 Mountain Lion Detection System (NotFlock)  
+**Configuration Manager:** Alexander Hills  
+**Tool and engineering library:** [GitHub repository](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System)
 
-## Configuration Manager
-Alexander Hills
+### Relationship to the Project Manager's plan
+Lyvette's **Requirements Outline – NotFlock**, specifically its **Deliverable #2 (October 29, 2026)** responsibilities and October 22–28 schedule, is the authoritative **team work plan**. This document defines only how Configuration Management (CM) supports that plan. It does **not** reassign teammates, maintain a parallel schedule, or govern notebook/presentation submission.
 
-## Configuration Management Tool
-GitHub will be used to keep track of project files and software versions.
+The Project Manager coordinates team progress, deliverables, risks, schedule, final review and submission. The individual design, software, database, requirements, testing and QA owners prepare/review their assigned materials. CM verifies the GitHub repository, configuration documentation, accessible versions and change history, and reports missing or unreviewed files to the Project Manager.
 
-## Repository
-CS532-Mountain-Lion-Detection-System
+## Deliverable #2: CM responsibilities from the Project Manager's plan
+- **Throughout Deliverable #2:** maintain and update GitHub organization; update branches as needed; maintain configuration documentation.
+- **October 22–23:** verify GitHub is organized and current, documentation is accurate, and relevant project files can be accessed.
+- **October 24–28:** confirm the repository is ready for review, check that the latest project documents and files are available, and identify missing files.
+- **At handoff:** give the Project Manager a brief repository status and links to the correct revisions; do not independently approve another owner's deliverable or claim that the team's final submission is complete.
 
-## Access
-As of October 25, 2026, the repository is **public**, not private. Collaborator permissions are managed by the repository owner. The project manager/team should confirm whether public visibility is appropriate. Do not commit credentials, private information, or restricted data.
+## Items under configuration control
+- Requirements and acceptance/traceability documentation.
+- Architecture, interface and database design files.
+- Source code, configuration, dependencies and build instructions.
+- Test plans, test cases and recorded results where provided by the owners.
+- Commit history, pull-request decisions and deliverable revision identifiers.
 
-## Project Items Under Configuration Control
-The project will keep track of:
+An item not yet present in the repository may exist locally, in another branch, or in a Project Manager-managed document. Record it as **not verified in the checked location**, not as unfinished work by the owner.
 
-- Requirements documentation
-- Source code
-- Design documentation
-- Test information
-- Configuration files
-- Software versions and builds
+## Repository access and file organization
+The repository is **public** as checked October 28, 2026. Collaborator access is administered by the repository owner. Avoid committing credentials, private data, machine-specific temporary files, or restricted assets. Keep project documentation in the relevant existing `docs/` folders; use reviewed external links when the Project Manager keeps an artifact elsewhere.
 
-## Engineering Library
-The project repository will be used to organize and maintain the software and project information.
+## Branch and change controls
+- `main`: reviewed project integration and milestone snapshots, not automatically an approved final deliverable.
+- `development`: team integration branch before proposed promotion to `main`, according to the existing Version Control Plan; any exception should be agreed with the Project Manager/development leads.
+- `backend` and `testing`: existing work branches; preserve owners' unfinished work.
+- `docs/cm-d2-refresh-2026-10-25`: temporary branch for the CM documentation updates in [PR #8](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/8).
 
-The library will contain the current project files and the history of software versions.
+GitHub branch protection for `main` and `development` was documented in [issue #7](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/issues/7) on October 25. The configured workflow requires pull requests, at least one independent approving review and resolution of review conversations. Required automated CI checks have not been established. Admin bypass may remain possible; do not bypass the process just to merge.
 
-## Version Control
-Software versions will be maintained throughout development.
+Propose a focused change on an appropriate work branch, explain its effect and verification in a PR, receive an independent review, and merge only into the agreed integration target. **Do not create a separate permanent Deliverable #2 branch or a second project plan.** See [Version Control Plan](VERSION_CONTROL_PLAN.md).
 
-Important project baseline versions will be kept so previous versions of the software can be identified when needed. The head of `main` is not automatically a formally approved release: for each deliverable, record the reviewed commit, included files, approvals, and any known missing items before calling it a baseline.
+## Configuration baselines and change history
+Git commits and pull requests provide traceability; a branch tip alone is **not** an approved milestone baseline. At the approved handoff, record the exact commit/revision, links to the artifacts used by the Project Manager, reviewers/approval status and outstanding exceptions. Do not mark a baseline approved without that evidence.
 
-## Branch and Pull Request Controls (checked October 25, 2026)
-- `main`: intended for reviewed integration and project snapshots.
-- `development`: intended for ongoing integration before promotion to `main`.
-- `backend` and `testing`: existing work branches; coordinate with their owners before changing or removing them.
-- GitHub currently reports **`main` and `development` as protected**. The team configured pull-request review with one approval and conversation resolution, with force pushes and deletion disabled. Administrators may still have bypass permission unless separately restricted.
-- Changes should be proposed through a focused task branch and a pull request. An independent teammate reviews before merge. Configuration changes are documented and significant requirement/test impacts are noted.
-- `main` and `development` currently contain different work; do not overwrite either branch or merge unfinished components without a developer review.
-- Deliverable #2 does **not** require a separate permanent `development-2` branch. Update this plan and the existing repository records for each milestone.
+## Build and environment records
+As the software owners provide them, retain the supported environment, dependencies, build/run steps, inputs and outputs. CM checks their location and version; technical correctness and test execution belong to the responsible development/test roles.
 
-See [Version Control Plan](VERSION_CONTROL_PLAN.md) for the working procedure and [Deliverable 2 repository check](DELIVERABLE_2_REPOSITORY_CHECK.md) for evidence and open items.
+## Current repository check
+The [Deliverable #2 Repository Check](DELIVERABLE_2_REPOSITORY_CHECK.md) contains GitHub-only observations checked October 28, 2026. The listed gaps are **verification gaps on `main`**, not a new task schedule or assertions that team members have not worked on them.
 
-## Change History
-Changes to the software will be tracked so the team can identify what was changed during development.
-
-Changes to controlled software should be reviewed and approved before the updated software is placed back into the controlled project files.
-
-## Build Information
-As development continues, the team will document:
-
-- Build environment
-- Build inputs
-- Build procedure
-- Build outputs
-
-## Deliverable #2 Configuration Checks (October 25, 2026)
-For the October 29 milestone, the Configuration Manager verifies the GitHub structure, branch and pull request status, configuration documentation, file locations, and availability of the latest reviewed project documents. The Project Manager coordinates the team plan and final submission; the Configuration Manager does not replace that plan.
-
-The current repository check found:
-- `docs/design/` contains a README but not a committed architecture diagram or database model on `main`.
-- `docs/testing/` contains a README but not a committed test plan/cases on `main`.
-- Requirements traceability and acceptance criteria still contain placeholders needing review by the requirements owner.
-- Notebook, presentation, schedules, and timesheets may be maintained outside GitHub and have **not been verified** here.
-
-Owners should provide a file/PR link, revision and review status to the Project Manager. CM records unresolved gaps rather than marking incomplete or external work finished. See [Deliverable 2 repository check](DELIVERABLE_2_REPOSITORY_CHECK.md).
-
-**Document status:** Updated for Deliverable #2, pending review through a GitHub pull request. No formal milestone baseline or full-system test result is claimed.
+**Status:** CM documents are revised in PR #8 and require independent review. Full Deliverable #2 acceptance, final submission and an approved milestone baseline are not claimed.
