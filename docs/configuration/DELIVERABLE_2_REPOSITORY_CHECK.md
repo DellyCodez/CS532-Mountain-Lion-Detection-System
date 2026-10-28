@@ -1,42 +1,50 @@
-# Deliverable #2 — GitHub Repository Check
+# Deliverable #2 — Configuration Manager Repository Check
+
 **Project:** CS 532 Mountain Lion Detection System (NotFlock)  
 **Configuration Manager:** Alexander Hills  
-**Checked:** October 25, 2026  
-**Milestone:** Deliverable #2, October 29, 2026  
-**Scope:** Files and branch/PR metadata committed to the GitHub repository. This is not an application test, an approval of the notebook, or a replacement for the Project Manager's project plan.
+**Checked:** October 28, 2026  
+**Deliverable #2 due:** October 29, 2026 (per Project Manager's Requirements Outline – NotFlock)  
+**Scope:** GitHub organization, branch/PR history, configuration documents and file availability **in the reviewed repository locations**. This is **not** Lyvette's project plan or a team-wide task-assignment tracker.
 
-## GitHub organization and version control
-| Check | Verified status |
+## What the Project Manager assigned to Configuration Management
+
+| Project Manager's timeframe | CM check | Status / next action |
+| --- | --- | --- |
+| Deliverable #2 overall | Maintain GitHub organization, update branches and configuration documentation | Branches/CM files inspected; revised CM documents pending independent review in [PR #8](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/8) |
+| October 22–23 | Verify GitHub organization is current, documents are accurate and files are accessible | GitHub locations checked; unverified project artifacts noted below |
+| October 24–28 | Confirm repository ready for review, latest documents/files available and gaps identified | PRs and repository contents reviewed October 28; report unresolved file/review gaps to Lyvette |
+
+The Project Manager owns work assignments, schedule, project notebook, presentation, final coordination and submission. Design, requirements, database, software, test and QA owners remain responsible for producing and validating their own work. This check **does not** reassign them.
+
+## GitHub configuration status (October 28)
+
+| Item | Verified finding |
 | --- | --- |
-| Repository | [DellyCodez/CS532-Mountain-Lion-Detection-System](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System), public |
-| Branches | `main`, `development`, `backend`, `testing` |
-| Protected branches | `main` and `development` report `protected: true` in GitHub. The team set PR review with one approval, conversation resolution, and disabled force pushes/deletion in the GitHub interface. Administrator bypass may remain possible. |
-| Task branches | `backend` and `testing` remain unprotected work branches; this is not itself a release blocker |
-| Existing CM files | `docs/configuration/CM_PLAN.md` and `VERSION_CONTROL_PLAN.md` present on `main` |
-| Pull requests | PRs #1–#4 merged; PR #5 (earlier CM handoff proposal) closed **without merging** after the Project Manager took over the team plan |
-| Integration risk | `development` is 2 commits ahead and 7 behind `main`. Development owners should review reconciliation, not force-merge or reset branches. |
-| Formal milestone approval | No approved Deliverable #2 commit/baseline verified |
+| Repository | [CS532-Mountain-Lion-Detection-System](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System), public |
+| Branches | `main`, `development`, `backend`, `testing`, plus the temporary CM documentation branch |
+| Branch protection | [Issue #7](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/issues/7) documents configured protection for `main` and `development`; do not bypass reviews |
+| Integration | GitHub comparison: `development` is 2 commits ahead / 7 behind `main`; reconciliation needs development-lead review, not a force push |
+| CM documentation | `docs/configuration/CM_PLAN.md` and `VERSION_CONTROL_PLAN.md` exist on `main`; corrected revisions proposed in [PR #8](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/8), not merged |
+| Active code review | [PR #9](https://github.com/DellyCodez/CS532-Mountain-Lion-Detection-System/pull/9) is open from `testing` to `main` and still needs the team to resolve its review/integration path |
+| Approved Deliverable #2 baseline | **Not verified**; obtain exact accepted revision and Project Manager confirmation |
 
-## Project document availability on `main`
-| Required material | Checked location | Finding | Owner follow-up |
-| --- | --- | --- | --- |
-| System architecture and interfaces | `docs/design/` | README only; actual architecture/diagram not committed to `main` | Design/development leads provide versioned artifact or verified external link |
-| Database model/ER diagram | `docs/design/` | No data model/ERD committed to `main` | Database lead supplies model and revision |
-| Test plan and test cases | `docs/testing/` | README only; test plan/cases not committed to `main` | Test lead supplies plan and cases |
-| Requirements traceability | `docs/requirements/09-Traceability Matrix.md` | Rows include `TBD` and `xx` placeholders | Requirements lead completes mapping |
-| Acceptance criteria | `docs/requirements/08-Acceptance Criteria.md` | Criteria still have `xxx`, `XX`, and `...` placeholders | Requirements lead completes criteria |
-| Notebook, schedule, presentation and time records | Project Manager-managed | Not verified in repository; files may be held elsewhere | Project Manager confirms source files and submission versions |
+## Document availability on `main` (checked October 28)
 
-**Important:** "Not committed to `main`" does not establish that a teammate has not prepared work in another branch, locally, or in an external document. Record an external file only after confirming its accessible link and version.
+| Location checked | Finding | CM action |
+| --- | --- | --- |
+| `docs/design/` | README only in this branch; architecture/design and database model not visible here | Request accessible current link/revision from the responsible owner or Project Manager; do not assert the work does not exist |
+| `docs/testing/` | README only in this branch; test plan/cases not visible here | Request accessible current link/revision; do not interpret absence from `main` as failure to test |
+| `docs/requirements/08-Acceptance Criteria.md` | The October 25 inspection found placeholders | Recheck the reviewed revision or obtain verified alternate copy |
+| `docs/requirements/09-Traceability Matrix.md` | The October 25 inspection found placeholders | Recheck the reviewed revision or obtain verified alternate copy |
+| Notebook, schedule, presentation, timesheets | Not independently verified in GitHub; may be maintained outside the repository | Ask the Project Manager for the reviewed versions, not a new GitHub task plan |
 
-## Configuration Manager follow-up
-- [x] Verified repository organization, branch names and two protected branches.
-- [x] Reviewed existing CM / Version Control Plans and corrected the stale repository-visibility statement in the proposed updates.
-- [x] Reviewed PR history and documented the divergent integration branches.
-- [x] Identified document availability and placeholder problems and recorded them here.
-- [ ] Obtain independent PR review and merge updated CM documentation into protected `main`.
-- [ ] Receive the latest artifact URLs/revisions from team leads and verify they match the final Project Notebook.
-- [ ] Confirm with the Project Manager which deliverable documents were formally reviewed and accepted.
-- [ ] Record exact approved milestone commit/revision and any unresolved exceptions at final handoff.
+## CM handoff checklist (only CM-owned tasks)
+- [x] Check existing branches and current integration status.
+- [x] Review the repository's organization and the documentation visible in checked locations.
+- [x] Update the existing CM and Version Control Plans to reflect the Project Manager's Deliverable #2 responsibilities (changes in PR #8).
+- [x] Identify file-access and review gaps without marking other owners' work incomplete.
+- [ ] Obtain independent review and authorized merge of PR #8.
+- [ ] Confirm with the Project Manager the reviewed version or accessible link for any artifacts used in the final submission.
+- [ ] Record the exact accepted milestone commit/version and known exceptions after approval.
 
-The Configuration Manager will coordinate file-version verification and report outstanding gaps. Team deliverables, schedule and submission decisions remain with the Project Manager and respective component leads.
+**Important:** This is a CM verification record, not a replacement project plan, not a claim that other team members have missed their assignments, and not evidence of successful full-system testing. Team-wide assignments remain in Lyvette's Requirements Outline – NotFlock.
