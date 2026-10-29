@@ -26,3 +26,7 @@ The park ranger requests a detection report.
 
 **Postcondition:** 
 The requested report is presented to the park ranger.
+
+Implementation Status
+
+Partially implemented: date/classification, sensor/location, and ranger reports use in-memory records. Graphical park-map reporting remains Planned. Persistent history depends on unfinished database/retention processing. Test execution and final acceptance remain unverified.

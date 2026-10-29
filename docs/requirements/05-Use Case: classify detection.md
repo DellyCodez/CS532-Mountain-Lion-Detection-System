@@ -18,3 +18,14 @@ The park ranger chooses to classify a detection.
 
 **Postcondition:** 
 The mountain lion detection has a recorded classification.
+
+## Proposed Exception Handling
+
+If the record cannot be found or saved, MLDS indicates that the classification was not completed. Confirm this exception behavior with software and test owners.
+
+Persistent identity, history, and authentication design require confirmation. This use case does not independently introduce a login requirement.
+
+
+## Implementation Status
+
+Implemented in the current prototype, based on the team update: classification and ranger-name association use in-memory records. Persistent history and identity remain unverified.
