@@ -27,3 +27,4 @@ my_dataset/
 *.h5
 *.tflite
 certificate.pem
+database/service_key.json
